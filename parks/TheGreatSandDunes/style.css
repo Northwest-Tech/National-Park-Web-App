@@ -4,6 +4,7 @@ body{
     background: linear-gradient(135deg, #2e7d32, #81c784);
     min-height: 100vh;
 }
+/* Header */
 
 header {
     display: flex;
@@ -22,3 +23,18 @@ font-size: 2.0em;
 color: white;
 font-family: "Segoe UI", Tahoma, 'Geneva', Verdana, sans-serif; 
 }
+
+/* End Header */
+
+/* Hero Banner */
+
+.hero {
+    background-image: url('./assets/images/The Great Sand Dunes/Sand Dunes 1.jpg');
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    
+}
+
+
+
+/* End Hero Banner */
