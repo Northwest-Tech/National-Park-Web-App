@@ -20,3 +20,16 @@ header h3{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
+/* End Header */
+
+/* Hero Banner */
+.hero{
+    background-image: url(../../assets/images/yosemite/pexels-abdus-samad-mahkri-1624305361-33857977.jpg);
+    width: 100vw;
+    height: 350px;
+    background-size: cover;
+    backdrop-filter: blur(8px) brightness(0.4);
+}
+
+
+/* End Hero Banner */
