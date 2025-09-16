@@ -47,6 +47,9 @@ header h3 {
 /* End Hero Banner */
 
 /* Main Content */
+main {
+    padding: 5px;
+}
 .contentArea {
     display: flex;
 }
@@ -72,8 +75,26 @@ header h3 {
 }
 /* Main Content */
 
+/* Footer */
+footer {
+    display: flex;
+    height: 100px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 120px;
+}
+
+
+/* END Footer */
+
 * {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0px 2px 2px black;
 }
+
