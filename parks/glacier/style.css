@@ -4,7 +4,7 @@ body {
     background: linear-gradient(135deg, #2e7d32, #81c784);
     min-height: 100vh;
 }
-
+/* START HEADER*/
 header {
     display: flex;
     align-items: center;
@@ -21,3 +21,14 @@ header h3{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: 300;
 }
+/* END HEADER */
+
+/* HERO BANNER*/
+.hero {
+    background-image: url("../../assets/images/glacier/glacier.jpg");
+    width: 100vw;
+    height: 350px;
+    background-size: cover;
+    backdrop-filter: blur(8px) brightness(0.4);
+}
+/* END HERO BANNER*/
