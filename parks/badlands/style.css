@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #2e7d32, #81c784) ;
+    min-height: 100wh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 35;
+}
+
+header img {
+    height: 120px;
+}
+header h3 {
+    font-size: 2.0em;
+}
