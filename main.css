@@ -120,3 +120,7 @@ body {
         transform: translateY(0);
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
+
+    .yosemiteBackgroundImage {
+        background-image: url("./assets/images/yosemite/pexels-pixabay-414199.jpg");
+    }
