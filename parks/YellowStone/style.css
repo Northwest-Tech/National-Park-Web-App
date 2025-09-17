@@ -72,6 +72,20 @@ flex-direction: row-reverse;
     height: 50vh;
     width: 50vw;
 }
+.imageViewer{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.imageViewer img{
+    flex: 1;
+    height: 250px;
+    object-fit: cover;
+
+}
 
 /* main content */
 .text{
