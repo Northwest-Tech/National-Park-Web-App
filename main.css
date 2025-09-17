@@ -120,3 +120,20 @@ body {
         transform: translateY(0);
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
+
+    .yellowstonebackgroundimage {
+        background-image: url("../../assets/images/YellowStone/pexels-lkloeppel-2416600.jpg");
+
+
+
+    .glacierNationalParkBackgroundImage {
+        background-image: url("./assets/images/glacier/glacier.jpg");
+
+
+    .yosemiteBackgroundImage {
+        background-image: url("./assets/images/yosemite/pexels-pixabay-414199.jpg");
+
+  
+
+
+    }
