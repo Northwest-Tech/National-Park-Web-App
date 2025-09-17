@@ -14,7 +14,7 @@ header img{
     height: 120px;
 }
 
-header h3{
+header h2{
     font-size: 2.oem;
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -25,21 +25,31 @@ header h3{
 /* Hero Banner */
 .hero{
     background-image: url(../../assets/images/yosemite/pexels-abdus-samad-mahkri-1624305361-33857977.jpg);
-    width: 100vw;
+    width: calc(100vw - 10px);
     height: 350px;
     background-size: cover;
     backdrop-filter: blur(8px) brightness();
     display: flex;
     flex-direction: row-reverse;
-     align-items: center;
+    align-items: center;
+    position: relative;
 }
 
 .hero p {
     width: 30vw;
     margin: 20px;
     color: white;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 0px 2px 2px black;
+    z-index: 1;
    
+}
+
+#overlay {
+position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 ,0 ,0 ,0.6);
+    backdrop-filter: blur(4px);
 }
 /* End Hero Banner */
 
@@ -76,5 +86,18 @@ header h3{
     text-shadow: 1px 2px 4px rgba(0 ,0 ,0 ,0.5);
 }
 
-
+.mainPadding{
+    padding: 2px;
+}
 /* END Informaion area */
+
+/* Footer Start */
+/* .footer{
+
+}
+
+footer img{
+    height: 120px;
+} */
+
+/* Footer End */
