@@ -27,11 +27,12 @@ header h3 {
 
 .hero { 
     background-image: url("../../assets/images/badlands/pexels-arthousestudio-4326291.jpg");
-    width: 100vw;
+    width: calc(100vw - 10px);
     height: 350px;
     background-size: cover;
     flex-direction: row-reverse;
     align-items: center;
+    position: relative;
 }
 /* end hero banner */
 .hero p {
@@ -39,6 +40,14 @@ header h3 {
     margin: 20px;
     color: white;
     text-shadow: 1px 2px 2px black;
+    z-index: 1;
+}
+#overLay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
 }
 /*information Area */
 .informationArea {
@@ -50,7 +59,7 @@ header h3 {
 display: flex;
 flex-direction: row;
 /*height: 15wh;*/
-width: ;
+width: 100vw;
 align-items: center;
 }
 .reverse {
@@ -65,4 +74,16 @@ align-items: center;
     color: white;
     font-family: "segoe UI", tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 4px rgba(0, 0, 0.5);
+}
+.imageVeiwer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+}
+.imageVeiwer img {
+flex: 1;
+height: 250px;
+object-fit: cover;
 }
