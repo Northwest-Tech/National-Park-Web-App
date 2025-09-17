@@ -8,7 +8,14 @@
 </head>
 <body>
     <header>
-        <img src="../../assets/images/logo.png" alt="National Park Explorer Logo">
+        <img id="logo" src="../../assets/images/logo.png" alt="National Park Explorer Logo">
+        <script>
+            const logo = document.getElementById("logo")
+            logo.addEventListener("click", ()=> {
+                window.location.href = "/"
+            })
+        </script>
+
         <h3>Grand Canyon</h3>
     </header>
     <main>
@@ -56,6 +63,19 @@
                 </ul>
                 </div>
             </div>
+        </section>
+
+        <section class="imageViewer">
+            <img src="../../assets/images/grandcanyon/pexels-adi-sri-127365-774123.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-belle-co-99483-405127.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-dreambravely-569202.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-joshsorenson-63553.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-lkloeppel-545960.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-noellegracephotos-906092.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-pixabay-257352.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-pixabay-259672.jpg" alt="">
+            <img src="../../assets/images/grandcanyon/pexels-pixabay-355647.jpg" alt="">
+
         </section>
     </main>
     <br>
