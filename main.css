@@ -120,3 +120,9 @@ body {
         transform: translateY(0);
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
+
+    .TheGreatSandDunesbackgroundImage{
+        background-image: url("./assets/images/The Great Sand Dunes/Sand Dunes 2.jpg");
+       
+
+    }
