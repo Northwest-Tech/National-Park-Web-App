@@ -8,7 +8,13 @@
 </head>
 <body>
     <Header>
-        <img src="../../assets/images/logo.png" alt="National park Exploration padge">
+        <img id="logo" src="../../assets/images/logo.png" alt="National park Exploration padge">
+        <script>
+            const logo = document.getElementById("logo")
+            logo.addEventListener("click", () => {
+                window.location.href = "/"
+                })
+        </script>
         <h3>The Great Sand Dunes</h3>
     </Header>
     <main>
@@ -37,6 +43,12 @@
             <img src="../../assets/images/The Great Sand Dunes/Sand Dunes 3.jpg" alt="people walking on sand dunes">
             <p>The photo captures the sweeping beauty of the Great Sand Dunes, where golden waves of sand stretch endlessly toward the horizon. Rising dramatically against the rugged backdrop of the Sangre de Cristo Mountains, the dunes glow in the sunlight and reveal intricate patterns shaped by the wind. This striking contrast of towering peaks and rolling sands highlights the park’s unique landscape, inviting visitors to explore, reflect, and experience the wonder of nature’s artistry.</p>
           </div>
+        </section>
+        <section class="imageveiwer">
+            <img src="../../assets/images/The Great Sand Dunes/Sand Dunes 4.jpg" alt="">
+            <img src="../../assets/images/The Great Sand Dunes/Sand Dunes 5.jpg" alt="">
+            <img src="../../assets/images/The Great Sand Dunes/Sand Dunes 6.jpg" alt="">
+            <img src="../../assets/images/The Great Sand Dunes/Sand Dunes 7.jpg" alt="">
         </section>
     </main>
     <hr>

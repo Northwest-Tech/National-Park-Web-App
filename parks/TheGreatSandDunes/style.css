@@ -93,6 +93,27 @@ font-family: "Segoe UI", Tahoma, 'Geneva', Verdana, sans-serif;
 }
 /* End Information Area */
 
+/* image veiwer */
+
+.imageveiwer{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.imageveiwer img{
+    flex: 1;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+/* End image veiwer */
+
 /* Footer Area*/
 .leftlogo{
     height: 100px;
