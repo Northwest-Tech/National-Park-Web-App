@@ -43,3 +43,38 @@ header h3 {
 }
 
 /* End Hero Banner */
+
+/* Information Area */
+
+.informationArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rowItem {
+    display: flex;
+    flex-direction: row;
+    /* height: 15vh; */
+    width: 100vw;
+    align-items: center;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.rowItem img {
+    flex: 2;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.rowItem p, .rowItem li {
+    color: white;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+/* END Information Area */
