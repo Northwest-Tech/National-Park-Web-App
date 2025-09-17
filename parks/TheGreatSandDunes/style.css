@@ -29,10 +29,21 @@ font-family: "Segoe UI", Tahoma, 'Geneva', Verdana, sans-serif;
 /* Hero Banner */
 
 .hero {
-    background-image: url('./assets/images/The Great Sand Dunes/Sand Dunes 1.jpg');
+    background-image: url('../../assets/images/The Great Sand Dunes/Sand Dunes 1.jpg');
+    width: 100vw;
+    height: 350px;
     background-size: cover;
-    backdrop-filter: blur(8px);
-    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.hero p {
+    width: 30vw;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
 }
 
 
