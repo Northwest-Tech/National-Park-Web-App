@@ -86,6 +86,32 @@ header h3{
 
 /* END Information Area*/
 
+
+.cotentArea img {
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.imageViewer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.imageViewer img{
+    flex: 1;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
 footer {
     color: white;
     padding: 30px 40px;
