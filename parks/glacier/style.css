@@ -26,20 +26,30 @@ header h3{
 /* HERO BANNER*/
 .hero {
     background-image: url("../../assets/images/glacier/glacier.jpg");
-    width: 100vw;
+    width: calc(100vw - 100 vh);
     height: 350px;
     background-size: cover;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    
+    position: relative;
 }
 
 .hero p{
     width: 30vw;
     margin: 20px;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 2px black;
+    z-index: 1;
+}
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    filter: blur(4px);
 }
 /* END HERO BANNER*/
 
@@ -75,3 +85,14 @@ header h3{
 }
 
 /* END Information Area*/
+
+footer {
+    color: white;
+    padding: 30px 40px;
+}
+
+
+
+footer img {
+    height: 120px;
+}
