@@ -120,3 +120,7 @@ body {
         transform: translateY(0);
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
+    .yellowstonebackgroundimage {
+        background-image: url("../../assets/images/YellowStone/pexels-lkloeppel-2416600.jpg");
+
+    }
