@@ -8,8 +8,16 @@
 </head>
 <body>
    <header>
-        <img src="../../assets/images/logo.png" alt="National Park Explorer">
+        <img id="logo" src="../../assets/images/logo.png" alt="National Park Explorer">
+         <script>
+            const logo = document.getElementById("logo")
+            logo.addEventListener("click", ()=>{
+                window.location.href = "/"
+            })
+        </script>
+        
         <h2>Yosemite</h2>
+       
    </header>
    <Main class="mainPadding">
     <Section class="hero">
@@ -39,7 +47,16 @@
             <p>Yosemite National Park is home to some of the tallest and most beautiful waterfalls in North America. Yosemite Falls, the park’s tallest at 2,425 feet, cascades in three breathtaking sections. Bridalveil Fall, often the first waterfall visitors see, flows year-round and creates a misty rainbow spectacle. Vernal Fall and Nevada Fall along the Mist Trail offer powerful, up-close views, while Horsetail Fall famously glows orange at sunset in February, creating the “Firefall” effect.</p>
     </div>
    </Section>
-
+<section class="imageViewer">
+    <img src="../../assets/images/yosemite/pexels-abdus-samad-mahkri-1624305361-33857977.jpg" alt="">
+ <img src="../../assets/images/yosemite/pexels-abdus-samad-mahkri-1624305361-33857983.jpg" alt="">
+  <img src="../../assets/images/yosemite/pexels-andrejcook-131723.jpg" alt="">
+   <img src="../../assets/images/yosemite/pexels-jonathanschmer-2452241.jpg" alt="">
+    <img src="../../assets/images/yosemite/pexels-makayla-asuncion-2155237133-33894780.jpg" alt="">
+     <img src="../../assets/images/yosemite/pexels-pixabay-414199.jpg" alt="">
+      <img src="../../assets/images/yosemite/pexels-pixabay-533881.jpg" alt="">
+       <img src="../../assets/images/yosemite/pexels-stephen-leonardi-587681991-25972599.jpg" alt="">
+</section>
    </Main>
    <!-- <Footer class="footer">
     <img src="../../assets/images/logo.png" alt="National Park Explorer">
