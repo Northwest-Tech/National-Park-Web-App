@@ -121,6 +121,11 @@ body {
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
 
+    .TheGreatSandDunesbackgroundImage{
+        background-image: url("./assets/images/The Great Sand Dunes/Sand Dunes 3.jpg");
+       
+
+
 
     .grandCanyonBackgroundImage {
         background-image: url("./assets/images/grandcanyon/Dawn_on_the_S_rim_of_the_Grand_Canyon_\(8645178272\).jpg");
@@ -128,4 +133,5 @@ body {
 
     .BadlandsBackgroundImage {
         background-image: url("./assets/images/badlands/pexels-todd-trapani-488382-2642049.jpg");
+
     }
