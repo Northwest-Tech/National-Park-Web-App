@@ -42,3 +42,36 @@ header h3{
     text-shadow: 1px 2px 2px black;
 }
 /* END HERO BANNER*/
+
+/* Information Area*/
+
+.informationArea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rowItem {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100vw;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.rowItem img {
+    flex: 2;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.rowItem p, .rowItem li {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* END Information Area*/
