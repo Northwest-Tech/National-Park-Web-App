@@ -123,17 +123,17 @@ body {
 
     .yellowstonebackgroundimage {
         background-image: url("../../assets/images/YellowStone/pexels-lkloeppel-2416600.jpg");
-
+    }
 
 
     .glacierNationalParkBackgroundImage {
         background-image: url("./assets/images/glacier/glacier.jpg");
-
+    }
 
     .yosemiteBackgroundImage {
         background-image: url("./assets/images/yosemite/pexels-pixabay-414199.jpg");
+    }
 
-  
-
-
+        .gateWayBackgroundImage {
+        background-image: url("./assets/images/gateway/pexels-daniel-erlandson-2150649940-31317367.jpg");
     }
