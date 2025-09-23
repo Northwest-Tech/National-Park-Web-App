@@ -14,7 +14,6 @@ header img {
     height: 120px;
 }
 header h3 {
-<<<<<<< HEAD
     font-size: 2.0em;
     color: white;
     font-family: "segoe UI", tahoma, Geneva, Verdana, sans-serif;
@@ -47,10 +46,10 @@ header h3 {
     gap: 20px;
 }
 .rowItem {
-display: flex;
-flex-direction: row;
-/*height: 15wh;*/
-width: ;
+    display: flex;
+    flex-direction: row;
+    /*height: 15wh;*/
+    /* width: ; */
 align-items: center;
 }
 .reverse {
@@ -65,7 +64,6 @@ align-items: center;
     color: white;
     font-family: "segoe UI", tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 4px rgba(0, 0, 0.5);
-=======
    font-size: 2.0em;
    color: white;
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -157,5 +155,4 @@ footer img {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0px 2px 2px black;
->>>>>>> fd594b9d295d207320e1655db5f9fe83a5ca33ed
 }
