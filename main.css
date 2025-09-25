@@ -123,17 +123,29 @@ body {
 
     .yellowstonebackgroundimage {
         background-image: url("../../assets/images/YellowStone/pexels-lkloeppel-2416600.jpg");
-
+    }
 
 
     .glacierNationalParkBackgroundImage {
         background-image: url("./assets/images/glacier/glacier.jpg");
-
+    }
 
     .yosemiteBackgroundImage {
         background-image: url("./assets/images/yosemite/pexels-pixabay-414199.jpg");
+    }
 
-  
+        .gateWayBackgroundImage {
+        background-image: url("./assets/images/gateway/pexels-daniel-erlandson-2150649940-31317367.jpg");
+    }
 
+    .SandDunesBackgroundImage {
+        background-image: url("./assets/images/The Great Sand Dunes/Sand Dunes 2.jpg");
+    }
 
+    .BadlandsBackgroundImage {
+        background-image: url("./assets/images/badlands/pexels-nazli-gaylan-azili-49565143-29306882.jpg");
+    }
+
+        .grandCanyonBackgroundImage {
+        background-image: url("./assets/images/grandcanyon/Dawn_on_the_S_rim_of_the_Grand_Canyon_\(8645178272\).jpg");
     }
